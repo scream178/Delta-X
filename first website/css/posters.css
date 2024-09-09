@@ -1,0 +1,490 @@
+body{ font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+/************ NAVBAR ***************/
+
+.NAVBAR{
+    background-color: #303030;
+    overflow: hidden;
+    display: flex;
+    gap: 450px;
+    width: 100%;
+    height: 90px;
+}
+.NAVBAR img{
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.NAVBAR ul{
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 80px;
+    gap: 0 60px;
+    display: flex;
+}
+
+.NAVBAR ul li{
+    position: flex;
+    list-style: none;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+.NAVBAR ul li a{
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all .5s;
+}
+.NAVBAR ul li a:hover{
+    color:green;
+}
+input[type="search"]{
+    position: relative;
+    font-weight: bolder;
+    font-size: 14px;
+    text-align: center;
+    border-radius: none;
+    left: 30px;
+    margin-top: 15px;
+}
+
+/**************** FOOoter***************/
+.footer{
+   margin-top: 300px;
+   width: 100%;
+   padding: 90px 0.1%;
+   background: #303030;
+   color: #efefef;
+   display: flex; 
+   position: relative;
+   justify-content: center;
+   gap: 0 200px;
+
+}
+.footer div{
+   
+    text-align: center;
+   
+}
+
+.footer div h3{
+    
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+.col-1 a:hover{
+    color: green;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: none;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+form button:hover{
+    color: green;
+}
+.socials ul{position: absolute;
+    top: 300px;
+    left: 1170px;
+    transform: translate(1%, 1%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+ .socials ul li{
+    list-style: none;
+    margin: 0 10px;
+ }
+    
+ .socials ul li .fa-square-facebook{
+    color: #303030;
+    font-size: 38px;
+    line-height: 30px;
+    transition: .5s;
+ }
+
+ .socials ul li .fa-square-facebook:hover{
+    color:#ffff;
+ }
+
+ .socials ul li .fa-square-x-twitter{
+    color: #303030;
+    font-size: 38px;
+    line-height: 30px;
+    transition: .5s;
+ }
+
+ .socials ul li .fa-square-x-twitter:hover{
+    color:#ffff;}
+
+
+ .socials ul li .fa-square-instagram{
+    color: #303030;
+    font-size: 38px;
+    line-height: 30px;
+    transition: .5s;
+ }
+
+ .socials ul li .fa-square-instagram:hover{
+    color:#ffff;}
+
+
+ .socials ul li .fa-square-youtube{
+    color: #303030;
+    font-size: 38px;
+    line-height: 30px;
+    transition: .5s;
+ }
+
+
+.socials ul li .fa-square-youtube:hover{
+    color:#ffff;}
+
+    .socials ul li a {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #efefef;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+   
+    }
+
+    .socials ul li a:hover {
+        transform: translate(0,-10px);
+    }
+
+    .socials ul li:nth-child(1) a:hover {
+    background-color: #3b5999;}
+
+    .socials ul li:nth-child(2) a:hover {
+    background-color: #000;}
+
+    .socials ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.socials ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+/******* shop ********/
+.shop h1{
+    height: fit-content;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 20px;
+}
+
+.product{
+
+    padding: 10px;
+    display: flex;
+    height: 7800px;
+    width: 1200px;
+    margin-left: 170px;
+    align-self: center;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.card{
+    width: 1200px;
+    height: 600px;
+    align-content: center;
+    justify-content: center;
+}
+.image a{
+    display: flex;
+    align-content: center;
+    height: 600px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: 0.5s;
+}
+.image a:hover{
+    opacity: 90%;
+}
+#content a{
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: -260px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+#content h3{
+    font-weight: 900;
+    transition: 0.5s;
+}
+#content h3:hover{
+    color: green;
+}
+#content p{
+    text-align: center;
+    position: relative;
+    top: -420px;
+    left: -360px;
+    color: white;
+}
+#content-2 a{
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: -345px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+#content-2 h3{
+    font-weight: 900;
+    transition: 0.5s;
+}
+#content-2 h3:hover{
+    color: green;
+}
+#content-2 p{
+    text-align: center;
+    position: relative;
+    top: -420px;
+    left: -360px;
+    color: white;
+}
+#content-3 a{
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: -294px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+#content-3 h3{
+    font-weight: 900;
+    transition: 0.5s;
+}
+#content-3 h3:hover{
+    color: green;
+}
+#content-3 p{
+    text-align: center;
+    position: relative;
+    top: -420px;
+    left: -360px;
+    color: white;
+}
+#content-4 a{
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: -255px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+#content-4 h3{
+    font-weight: 900;
+    transition: 0.5s;
+}
+#content-4 h3:hover{
+    color: green;
+}
+#content-4 p{
+    text-align: center;
+    position: relative;
+    top: -420px;
+    left: -360px;
+    color: white;
+}
+#content-5 a{
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: -257px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+#content-5 h3{
+    font-weight: 900;
+    transition: 0.5s;
+}
+#content-5 h3:hover{
+    color: green;
+}
+#content-5 p{
+    text-align: center;
+    position: relative;
+    top: -420px;
+    left: -360px;
+    color: white;
+}
+#content-6 a{
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: -335px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+#content-6 h3{
+    font-weight: 900;
+    transition: 0.5s;
+}
+#content-6 h3:hover{
+    color: green;
+}
+#content-6 p{
+    text-align: center;
+    position: relative;
+    top: -420px;
+    left: -360px;
+    color: white;
+}
+#content-7 a{
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: -270px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+#content-7 h3{
+    font-weight: 900;
+    transition: 0.5s;
+}
+#content-7 h3:hover{
+    color: green;
+}
+#content-7 p{
+    text-align: center;
+    position: relative;
+    top: -420px;
+    left: -360px;
+    color: white;
+}
+#content-8 a{
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: -257px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+#content-8 h3{
+    font-weight: 900;
+    transition: 0.5s;
+}
+#content-8 h3:hover{
+    color: green;
+}
+#content-8 p{
+    text-align: center;
+    position: relative;
+    top: -420px;
+    left: -360px;
+    color: white;
+}
+#content-9 a{
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: -245px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+#content-9 h3{
+    font-weight: 900;
+    transition: 0.5s;
+}
+#content-9 h3:hover{
+    color: green;
+}
+#content-9 p{
+    text-align: center;
+    position: relative;
+    top: -420px;
+    left: -360px;
+    color: white;
+}
+#content-10 a{
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: -322px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+#content-10 h3{
+    font-weight: 900;
+    transition: 0.5s;
+}
+#content-10 h3:hover{
+    color: green;
+}
+#content-10 p{
+    text-align: center;
+    position: relative;
+    top: -420px;
+    left: -360px;
+    color: white;
+}
+#content-11 a{
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: -303px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+}
+#content-11 h3{
+    font-weight: 900;
+    transition: 0.5s;
+}
+#content-11 h3:hover{
+    color: green;
+}
+#content-11 p{
+    text-align: center;
+    position: relative;
+    top: -420px;
+    left: -360px;
+    color: white;
+}

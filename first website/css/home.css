@@ -1,0 +1,354 @@
+body{ font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+/************ NAVBAR ***************/
+
+.NAVBAR{
+    background-color: #303030;
+    overflow: hidden;
+    display: flex;
+    gap: 450px;
+    width: 100%;
+    height: 90px;
+}
+.NAVBAR img{
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.NAVBAR ul{
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 80px;
+    gap: 0 60px;
+    display: flex;
+}
+
+.NAVBAR ul li{
+    position: flex;
+    list-style: none;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+.NAVBAR ul li a{
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all .5s;
+}
+.NAVBAR ul li a:hover{
+    color:green;
+}
+input[type="search"]{
+    position: relative;
+    font-weight: bolder;
+    font-size: 14px;
+    text-align: center;
+    border-radius: none;
+    left: 30px;
+    margin-top: 15px;
+}
+
+/**************** FOOoter***************/
+.footer{
+   margin-top: 300px;
+   width: 100%;
+   padding: 90px 0.1%;
+   background: #303030;
+   color: #efefef;
+   display: flex; 
+   position: relative;
+   justify-content: center;
+   gap: 0 200px;
+
+}
+.footer div{
+   
+    text-align: center;
+   
+}
+
+.footer div h3{
+    
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+.col-1 a:hover{
+    color: green;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: none;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+form button:hover{
+    color: green;
+}
+.socials ul{position: absolute;
+    top: 300px;
+    left: 1170px;
+    transform: translate(1%, 1%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+ .socials ul li{
+    list-style: none;
+    margin: 0 10px;
+ }
+    
+ .socials ul li .fa-square-facebook{
+    color: #303030;
+    font-size: 38px;
+    line-height: 30px;
+    transition: .5s;
+ }
+
+ .socials ul li .fa-square-facebook:hover{
+    color:#ffff;
+ }
+
+ .socials ul li .fa-square-x-twitter{
+    color: #303030;
+    font-size: 38px;
+    line-height: 30px;
+    transition: .5s;
+ }
+
+ .socials ul li .fa-square-x-twitter:hover{
+    color:#ffff;}
+
+
+ .socials ul li .fa-square-instagram{
+    color: #303030;
+    font-size: 38px;
+    line-height: 30px;
+    transition: .5s;
+ }
+
+ .socials ul li .fa-square-instagram:hover{
+    color:#ffff;}
+
+
+ .socials ul li .fa-square-youtube{
+    color: #303030;
+    font-size: 38px;
+    line-height: 30px;
+    transition: .5s;
+ }
+
+
+.socials ul li .fa-square-youtube:hover{
+    color:#ffff;}
+
+    .socials ul li a {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #efefef;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+   
+    }
+
+    .socials ul li a:hover {
+        transform: translate(0,-10px);
+    }
+
+    .socials ul li:nth-child(1) a:hover {
+    background-color: #3b5999;}
+
+    .socials ul li:nth-child(2) a:hover {
+    background-color: #000;}
+
+    .socials ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.socials ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+
+/************** HOMEPAGE **************/
+.Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container video{
+position: relative;
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 0px;
+opacity: 85%;
+}
+.bottom-center{
+    color: white;
+    font-size: 18px;
+    position:absolute;
+    text-align: center;
+    bottom: -170px;
+    left: 590px;
+}
+.bottom-center h3 a{
+    display: block;
+    text-decoration: solid;
+    color: black;
+    transition: .5s;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-stroke: 2px green;
+    position: relative;
+}
+.bottom-center h3 a::before{
+    content:"TOYOTA SUPRA JZA80";
+    position:absolute;
+    color: white;
+    top: 2px;
+    right: -2px;
+    -webkit-text-stroke: white;
+    
+}
+.bottom-center h3 a:hover{
+    color: green;
+}
+.c h1{
+    font-family: 'Lato', Times, serif;
+    background-color: rgb(250, 250, 250);
+    color: #333;
+    padding: 15px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.para{position: relative;
+    font-size: 18px;
+    text-align: center;
+}
+.para2{
+    position: relative;
+    text-align: center;
+    font-size: larger;
+}
+/********* socials ***********/
+.social1 ul{position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+ .social1 ul li{
+    list-style: none;
+    margin: 0 10px;
+ }
+    
+ .social1 ul li .fa-square-facebook{
+    color: #303030;
+    font-size: 59px;
+    line-height: 50px;
+    transition: .5s;
+ }
+
+ .social1 ul li .fa-square-facebook:hover{
+    color:#ffff;
+ }
+
+ .social1 ul li .fa-square-x-twitter{
+    color: #303030;
+    font-size: 60px;
+    line-height: 50px;
+    transition: .5s;
+ }
+
+ .social1 ul li .fa-square-x-twitter:hover{
+    color:#ffff;}
+
+
+ .social1 ul li .fa-square-instagram{
+    color: #303030;
+    font-size: 60px;
+    line-height: 50px;
+    transition: .5s;
+ }
+
+ .social1 ul li .fa-square-instagram:hover{
+    color:#ffff;}
+
+
+ .social1 ul li .fa-square-youtube{
+    color: #303030;
+    font-size: 60px;
+    line-height: 50px;
+    transition: .5s;
+ }
+
+
+.social1 ul li .fa-square-youtube:hover{
+    color:#ffff;}
+
+    .social1 ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+   
+    }
+
+    .social1 ul li a:hover {
+        transform: translate(0,-10px);
+    }
+
+    .social1 ul li:nth-child(1) a:hover {
+    background-color: #3b5999;}
+
+    .social1 ul li:nth-child(2) a:hover {
+    background-color: #000;}
+
+    .social1 ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social1 ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
